@@ -1,0 +1,22 @@
+{
+  "name": "path-of-the-padawan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinasalnikova/path-of-the-Padawan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinasalnikova/path-of-the-Padawan/issues"
+  },
+  "homepage": "https://github.com/alinasalnikova/path-of-the-Padawan#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
