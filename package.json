@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve:cv": "parcel src/CV/index.html",
+    "serve:landing": "parcel src/landing/index.html",
+    "serve:dashboard": "parcel src/dashboard/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
