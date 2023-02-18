@@ -26,6 +26,7 @@ body{
 .hat{
     right: 111px;
     left: 50px;
+    display: inline-block;
 }
 
 /* Image */
