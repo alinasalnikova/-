@@ -26,34 +26,16 @@ body{
 .hat{
     right: 111px;
     left: 50px;
-    display: inline-block;
-}
-
-/* Image */
-.image_box{
-    width: 12%;
-    display: inline-block;
-}
-
-/* Rick Tang*/
-.rick_tang{
-    box-sizing: border-box;
-    left: 111px;
-    top: 50px;
-    color: black;
-    display: inline-block;
-}
-
-/* Product Designer */
-.product_designer{
-    left: 111px;
-    top: 75px;
-    color: rgba(0,0,0,0.7);
-    display: inline-block;
+    display: flex;
 }
 
 .post{
     font-weight: 500;
+}
+
+.experience{
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 /* Right Side */
@@ -67,25 +49,28 @@ body{
 
 /* Details*/
 .details{
-    padding-top: 40px;
+    padding-top: 120px;
     color: black;
     position: relative;
+    margin-bottom: 70px;
 }
 
 .details-title{
     left: 453px;
     top: 133px;
+    margin-bottom: 30px;
+    padding-left: 40px;
 }
 
 .header{
     left: 453px;
     top: 166px;
+    margin-bottom: 10px;
 }
 
 .text{
-    left: 453px;
-    top: 221px;
     color: rgba(0,0,0,0.7);
+    
 }
 
 .details ul{
@@ -101,9 +86,20 @@ body{
     left: 453px;
 }
 
+.links-title{
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
 /*Skills*/
 .skills-section{
     left: 453px;
+    margin-bottom: 70px;
+}
+
+.skills-title{
+    margin-bottom: 30px;
+    padding-left: 40px;
 }
 
 .progress-bar{
