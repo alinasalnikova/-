@@ -1,73 +1,148 @@
-.body{
+body{
     background: #F6F6F6;
     margin: 0;
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Container */
 .container{
-    position: absolute;
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 65% 1fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
-
 }
 
 /*Left Side*/
 .left_side{
     background: #F7F7F7;
     position: relative;
+    margin: 40px;
 }
 
-/* Profile Text */
-.profile_text{
-    width: 88px;
-    height: 23px;
+/* Header */
+.hat{
     right: 111px;
     left: 50px;
-
 }
 
 /* Image */
 .image_box{
-    position: absolute;
-    width: 56px;
-    height: 56px;
-    top: 40px;
-    left: 40px;
+    width: 12%;
+    display: inline-block;
 }
 
 /* Rick Tang*/
 .rick_tang{
     box-sizing: border-box;
-    position: absolute;
-    width: 88px;
-    height: 23px;
     left: 111px;
     top: 50px;
     color: black;
+    display: inline-block;
 }
 
 /* Product Designer */
 .product_designer{
-    width: 88px;
-    height: 12px;
     left: 111px;
     top: 75px;
-    color: rgba(0,0,0,0.7)
+    color: rgba(0,0,0,0.7);
+    display: inline-block;
+}
+
+.post{
+    font-weight: 500;
 }
 
 /* Right Side */
 .right_side{
-    background: #FCFBF8;
-    position: absolute;
-    width: 568px;
-    height: 1025px;
     left: 423px;
     right: -83px;
+    margin-left: 70px;
+    background: rgb(251,248,153);
+    background: linear-gradient(212deg, rgba(251,248,153,1) 0%, rgba(248,247,251,1) 33%, rgba(220,242,246,1) 100%);
+}
 
+/* Details*/
+.details{
+    padding-top: 40px;
+    color: black;
+    position: relative;
+}
+
+.details-title{
+    left: 453px;
+    top: 133px;
+}
+
+.header{
+    left: 453px;
+    top: 166px;
+}
+
+.text{
+    left: 453px;
+    top: 221px;
+    color: rgba(0,0,0,0.7);
+}
+
+.details ul{
+    position: relative;
+}
+
+.list{
+    list-style: none;
+}
+
+/*Links*/
+.links{
+    left: 453px;
+}
+
+/*Skills*/
+.skills-section{
+    left: 453px;
+}
+
+.progress-bar{
+    width: 190px;
+    height: 4px;
+    background-color: gray;
+    position: relative;
+}
+
+.progress{
+    position: absolute;
+    background-color: black;
+}
+
+.f-progress{
+    width: 180px;
+    height: 4px;
+}
+
+.s-progress{
+    width: 180px;
+    height: 4px;
+}
+
+.ap-progress{
+    width: 140px;
+    height: 4px;
+}
+
+.ai-progress{
+    width: 90px;
+    height: 4px;
+}
+
+.p-progress{
+    width: 120px;
+    height: 4px;
+}
+
+.axd-progress{
+    width: 120px;
+    height: 4px;
 }
