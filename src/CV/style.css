@@ -1,6 +1,6 @@
 body{
-    background: #F6F6F6;
-    margin: 0;
+    background: white;
+    margin: 50px;
     display: flex;
     font-family: 'Roboto', sans-serif;
 }
@@ -17,16 +17,31 @@ body{
 
 /*Left Side*/
 .left_side{
-    background: #F7F7F7;
+    background: white;
     position: relative;
-    margin: 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    margin-right: 10px;
 }
 
 /* Header */
 .hat{
-    right: 111px;
-    left: 50px;
     display: flex;
+    align-items: flex-start;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+}
+
+.name{
+    padding-left: 20px;
+}
+
+h1{
+    margin-bottom: 1px;
 }
 
 .post{
@@ -42,14 +57,14 @@ body{
 .right_side{
     left: 423px;
     right: -83px;
-    margin-left: 70px;
-    background: rgb(251,248,153);
-    background: linear-gradient(212deg, rgba(251,248,153,1) 0%, rgba(248,247,251,1) 33%, rgba(220,242,246,1) 100%);
+    margin-left: 65px;
+    background: rgb(255,254,208);
+    background: linear-gradient(197deg, rgba(255,254,208,1) 0%, rgba(255,255,255,1) 45%, rgba(232,251,255,1) 100%);
 }
 
 /* Details*/
 .details{
-    padding-top: 120px;
+    padding-top: 125px;
     color: black;
     position: relative;
     margin-bottom: 70px;
@@ -70,7 +85,7 @@ body{
 
 .text{
     color: rgba(0,0,0,0.7);
-    
+    margin-top: 1px;
 }
 
 .details ul{
@@ -84,6 +99,7 @@ body{
 /*Links*/
 .links{
     left: 453px;
+    margin-bottom: 70px;
 }
 
 .links-title{
