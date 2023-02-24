@@ -1,6 +1,7 @@
 body{
     background: white;
-    margin: 50px;
+    margin: 0 auto;
+    width: 1000px;
     display: flex;
     font-family: 'Roboto', sans-serif;
 }
@@ -13,6 +14,7 @@ body{
     display: grid;
     grid-template-columns: 65% 1fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    line-height: 20px;
 }
 
 /*Left Side*/
@@ -44,6 +46,11 @@ h1{
     margin-bottom: 1px;
 }
 
+.job_title{
+    margin-top: 5px;
+    color: rgba(0,0,0,0.7);
+}
+
 .post{
     font-weight: 500;
 }
@@ -64,7 +71,7 @@ h1{
 
 /* Details*/
 .details{
-    padding-top: 125px;
+    padding-top: 150px;
     color: black;
     position: relative;
     margin-bottom: 70px;
@@ -85,7 +92,7 @@ h1{
 
 .text{
     color: rgba(0,0,0,0.7);
-    margin-top: 1px;
+    margin-bottom: 8px;
 }
 
 .details ul{
@@ -108,7 +115,7 @@ h1{
 }
 
 /*Skills*/
-.skills-section{
+.skills{
     left: 453px;
     margin-bottom: 70px;
 }
@@ -130,32 +137,32 @@ h1{
     background-color: black;
 }
 
-.f-progress{
+.figma{
     width: 180px;
     height: 4px;
 }
 
-.s-progress{
+.sketch{
     width: 180px;
     height: 4px;
 }
 
-.ap-progress{
+.adobe_photoshop{
     width: 140px;
     height: 4px;
 }
 
-.ai-progress{
+.adobe_illustrator{
     width: 90px;
     height: 4px;
 }
 
-.p-progress{
+.principle{
     width: 120px;
     height: 4px;
 }
 
-.axd-progress{
+.adobe_xd{
     width: 120px;
     height: 4px;
 }
