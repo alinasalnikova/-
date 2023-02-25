@@ -129,34 +129,29 @@ a{
 .progress{
     position: absolute;
     background-color: black;
+    height: 4px;
 }
 
 .figma{
     width: 95%;
-    height: 4px;
 }
 
 .sketch{
     width: 95%;
-    height: 4px;
 }
 
-.adobe_photoshop{
+.adobe-photoshop{
     width: 75%;
-    height: 4px;
 }
 
-.adobe_illustrator{
+.adobe-illustrator{
     width: 50%;
-    height: 4px;
 }
 
 .principle{
     width: 65%;
-    height: 4px;
 }
 
 .adobe_xd{
     width: 65%;
-    height: 4px;
 }
