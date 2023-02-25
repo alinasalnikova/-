@@ -8,9 +8,6 @@ body{
 
 /* Container */
 .container{
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
     display: grid;
     grid-template-columns: 65% 1fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
@@ -18,7 +15,7 @@ body{
 }
 
 /*Left Side*/
-.left_side{
+.left-side{
     background: white;
     position: relative;
     margin-top: 60px;
@@ -46,7 +43,7 @@ h1{
     margin-bottom: 1px;
 }
 
-.job_title{
+.job-title{
     margin-top: 5px;
     color: rgba(0,0,0,0.7);
 }
@@ -61,9 +58,7 @@ h1{
 }
 
 /* Right Side */
-.right_side{
-    left: 423px;
-    right: -83px;
+.right-side{
     margin-left: 65px;
     background: rgb(255,254,208);
     background: linear-gradient(197deg, rgba(255,254,208,1) 0%, rgba(255,255,255,1) 45%, rgba(232,251,255,1) 100%);
@@ -78,15 +73,11 @@ h1{
 }
 
 .details-title{
-    left: 453px;
-    top: 133px;
     margin-bottom: 30px;
     padding-left: 40px;
 }
 
 .header{
-    left: 453px;
-    top: 166px;
     margin-bottom: 10px;
 }
 
@@ -101,11 +92,11 @@ h1{
 
 .list{
     list-style: none;
+    margin-right: 60px;
 }
 
 /*Links*/
 .links{
-    left: 453px;
     margin-bottom: 70px;
 }
 
@@ -116,7 +107,6 @@ h1{
 
 /*Skills*/
 .skills{
-    left: 453px;
     margin-bottom: 70px;
 }
 
@@ -125,10 +115,14 @@ h1{
     padding-left: 40px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .progress-bar{
-    width: 190px;
+    width: 100%;
     height: 4px;
-    background-color: gray;
+    background-color: lightgray;
     position: relative;
 }
 
@@ -138,31 +132,31 @@ h1{
 }
 
 .figma{
-    width: 180px;
+    width: 95%;
     height: 4px;
 }
 
 .sketch{
-    width: 180px;
+    width: 95%;
     height: 4px;
 }
 
 .adobe_photoshop{
-    width: 140px;
+    width: 75%;
     height: 4px;
 }
 
 .adobe_illustrator{
-    width: 90px;
+    width: 50%;
     height: 4px;
 }
 
 .principle{
-    width: 120px;
+    width: 65%;
     height: 4px;
 }
 
 .adobe_xd{
-    width: 120px;
+    width: 65%;
     height: 4px;
 }
